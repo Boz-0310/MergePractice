@@ -18,7 +18,7 @@ function setTable(){
  
     //一次產生固定標題列
     $("#courseTable").append(
-        "<tr><th>編號</th><th>撥出時間</th><th>備註</th></tr>"
+        "<tr><th>項目</th><th></th><th>事項</th></tr>"
     );
     //反覆產生資料列
  //   let topicCount = topicsArray.length;
@@ -36,7 +36,7 @@ function setTable(){
             trSpecial +
             "<td>"+ (x+1) +"</td>"+
           
-            "<td>"+ thisDate.toLocaleDateString().slice(5) +"</td>"+
+            "<td>" +"</td>"+
             "<td>" + topicsArray[x]+"</td>"+
             "</tr>"
         ); //每一列有場次、預計日期、主題

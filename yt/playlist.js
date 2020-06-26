@@ -1,7 +1,7 @@
 let playList = [
-    "D7lgcr2cMvU", //讓我留在你身邊
-    "EnH3SOVZKfg", //全放空
-    "5j1K_5qt0Ug" //飄向北方
+    "2DdrwLk3pW8", //讓我留在你身邊
+    "Fix04LA_wnU", //全放空
+    "rRWk844GOmQ" //飄向北方
 ];
 //播放起訖秒數
 let playTime = [
